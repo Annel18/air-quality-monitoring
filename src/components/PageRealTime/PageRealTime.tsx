@@ -28,8 +28,8 @@ const PageRealTime: React.FC = () => {
       <h1>Your Local Data</h1>
       <div style={{ display: 'flex' }}>
         <Maps key="map-here" id="map-here" location="here" />
-        <WidgetDetails key="widget-here" location="here" />
-      </div> */}
+        <WidgetDetails key="widget-here" location="here" />*/}
+      </div>
     </>
   )
 }
