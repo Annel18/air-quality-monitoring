@@ -17,8 +17,9 @@ const PageRealTime: React.FC = () => {
         <div className="map-large">
           <Maps key={`map-${searchedLocation}`} id={`map-${searchedLocation}`} location={searchedLocation} />
         </div>
-        <DataRealTime key={searchedLocation} location={searchedLocation} />
-      </div>
+        <div className="data-realtime">
+          <DataRealTime key={searchedLocation} location={searchedLocation} />
+        </div>
       {/* <h1>Your Searched Data</h1>
       <div style={{ display: 'flex' }}>
         <Maps key={`map-${searchedLocation}`} id={`map-${searchedLocation}`} location={searchedLocation} />
